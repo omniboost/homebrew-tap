@@ -10,6 +10,8 @@ on:
   schedule:
     # Every day at 10:45 UTC
     - cron: 45 10 * * *
+  # After a new tag, start it right away: Actions → brew bump → Run workflow.
+  workflow_dispatch:
 
 permissions: {}
 
