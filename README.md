@@ -32,7 +32,13 @@ Your tracked time stays in `~/Library/Application Support/TempoTracker`, and you
 
 ## How new versions get here
 
-A new version starts with a tag `v*` in [omniboost/tempo-tracker](https://github.com/omniboost/tempo-tracker). The *brew bump* workflow in this repo checks for new tags every day, or right away with *Actions → brew bump → Run workflow*, and opens a pull request that updates the formula. Merge it after the tests pass.
+A new version starts with a tag `v*` in [omniboost/tempo-tracker](https://github.com/omniboost/tempo-tracker). After the tag, a maintainer runs:
+
+```bash
+brew bump --open-pr tempo-tracker
+```
+
+That opens a pull request here with the new version and checksum. The tests install and test the formula on macOS, and the maintainer merges it once they pass.
 
 ## Documentation
 
