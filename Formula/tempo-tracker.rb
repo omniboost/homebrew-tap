@@ -1,8 +1,8 @@
 class TempoTracker < Formula
   desc "Menu bar app that tracks your time per Jira ticket and sends it to Tempo"
   homepage "https://github.com/omniboost/tempo-tracker"
-  url "https://github.com/omniboost/tempo-tracker/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "52750bec173789bd1fe1338791c673b9a86f477379dc38439d54ad40ae94224f"
+  url "https://github.com/omniboost/tempo-tracker/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "25a2abbdd46d182d76dbbd56f2cf7bb02c3fad442b65bb86ea73c1ce283bf6d2"
   license "MIT"
 
   livecheck do
